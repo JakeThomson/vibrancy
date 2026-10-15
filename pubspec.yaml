@@ -1,0 +1,45 @@
+name: vibrancy
+description: >-
+  iOS's UIVibrancyEffect for Flutter: labels, icons and fills that take their
+  colour from the blur behind them, using the colour matrices UIKit applies.
+version: 0.1.0
+repository: https://github.com/JakeThomson/vibrancy
+issue_tracker: https://github.com/JakeThomson/vibrancy/issues
+
+topics:
+  - vibrancy
+  - blur
+  - cupertino
+  - ios
+  - color
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+environment:
+  sdk: ^3.12.0
+  flutter: ">=3.44.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+screenshots:
+  - description: A place card whose secondary text takes the blue of the sky behind it.
+    path: screenshots/place.webp
+  - description: A now-playing screen with vibrant secondary text and tracks over its artwork.
+    path: screenshots/player.webp
+  - description: A grouped list with vibrant values, fills and separators over a city at night.
+    path: screenshots/settings.webp
+  - description: Every vibrancy style over every material, on a spectrum.
+    path: screenshots/styles.webp
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter

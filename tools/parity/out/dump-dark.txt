@@ -1,0 +1,1406 @@
+iOS 27.0 dark=true
+=== blur ultraThin
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.5, inputValues=(
+    "0.24",
+    "0.24",
+    "0.3",
+    "0.39"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.100000023841858)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=22.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+
+=== ultraThin / label
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.5, inputValues=(
+    "0.24",
+    "0.24",
+    "0.3",
+    "0.39"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.100000023841858)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=22.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== ultraThin / secondaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.5, inputValues=(
+    "0.24",
+    "0.24",
+    "0.3",
+    "0.39"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.100000023841858)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=22.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[0.82807,-0.33796,-0.06511,0.00000,0.53750,-0.17179,0.66250,-0.06572,0.00000,0.53750,-0.17239,-0.33706,0.93445,0.00000,0.53750,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== ultraThin / tertiaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.5, inputValues=(
+    "0.24",
+    "0.24",
+    "0.3",
+    "0.39"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.100000023841858)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=22.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.04004,-0.31457,-0.06046,0.00000,0.31750,-0.15980,0.88599,-0.06119,0.00000,0.31750,-0.16053,-0.31348,1.13901,0.00000,0.31750,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== ultraThin / quaternaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.5, inputValues=(
+    "0.24",
+    "0.24",
+    "0.3",
+    "0.39"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.100000023841858)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=22.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.22658,-0.34107,-0.06551,0.00000,0.18000,-0.17323,1.05958,-0.06635,0.00000,0.18000,-0.17408,-0.33980,1.33388,0.00000,0.18000,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== ultraThin / fill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.5, inputValues=(
+    "0.24",
+    "0.24",
+    "0.3",
+    "0.39"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.100000023841858)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=22.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.37625,-0.73452,-0.14173,0.00000,0.50000,-0.37351,1.01630,-0.14279,0.00000,0.50000,-0.37457,-0.73293,1.60750,0.00000,0.50000,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== ultraThin / secondaryFill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.5, inputValues=(
+    "0.24",
+    "0.24",
+    "0.3",
+    "0.39"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.100000023841858)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=22.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.22658,-0.34107,-0.06551,0.00000,0.18000,-0.17323,1.05958,-0.06635,0.00000,0.18000,-0.17408,-0.33980,1.33388,0.00000,0.18000,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== ultraThin / tertiaryFill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.5, inputValues=(
+    "0.24",
+    "0.24",
+    "0.3",
+    "0.39"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.100000023841858)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=22.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.06053,-0.07797,-0.01457,0.00000,0.12000,-0.03932,1.02255,-0.01523,0.00000,0.12000,-0.03998,-0.07697,1.08495,0.00000,0.12000,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== ultraThin / separator
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.5, inputValues=(
+    "0.24",
+    "0.24",
+    "0.3",
+    "0.39"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.100000023841858)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=22.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.39622,-0.59714,-0.11508,0.00000,0.29800,-0.30355,1.10366,-0.11611,0.00000,0.29800,-0.30458,-0.59560,1.58418,0.00000,0.29800,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== ultraThin / default
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.5, inputValues=(
+    "0.24",
+    "0.24",
+    "0.3",
+    "0.39"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.100000023841858)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=22.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[0.82807,-0.33796,-0.06511,0.00000,0.53750,-0.17179,0.66250,-0.06572,0.00000,0.53750,-0.17239,-0.33706,0.93445,0.00000,0.53750,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== blur thin
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.6000000238418579, inputValues=(
+    "0.2",
+    "0.21",
+    "0.1",
+    "0.15"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.350000023841858)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=29.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+
+=== thin / label
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.6000000238418579, inputValues=(
+    "0.2",
+    "0.21",
+    "0.1",
+    "0.15"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.350000023841858)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=29.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== thin / secondaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.6000000238418579, inputValues=(
+    "0.2",
+    "0.21",
+    "0.1",
+    "0.15"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.350000023841858)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=29.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[0.82807,-0.33796,-0.06511,0.00000,0.53750,-0.17179,0.66250,-0.06572,0.00000,0.53750,-0.17239,-0.33706,0.93445,0.00000,0.53750,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== thin / tertiaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.6000000238418579, inputValues=(
+    "0.2",
+    "0.21",
+    "0.1",
+    "0.15"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.350000023841858)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=29.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.04004,-0.31457,-0.06046,0.00000,0.31750,-0.15980,0.88599,-0.06119,0.00000,0.31750,-0.16053,-0.31348,1.13901,0.00000,0.31750,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== thin / quaternaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.6000000238418579, inputValues=(
+    "0.2",
+    "0.21",
+    "0.1",
+    "0.15"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.350000023841858)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=29.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.22658,-0.34107,-0.06551,0.00000,0.18000,-0.17323,1.05958,-0.06635,0.00000,0.18000,-0.17408,-0.33980,1.33388,0.00000,0.18000,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== thin / fill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.6000000238418579, inputValues=(
+    "0.2",
+    "0.21",
+    "0.1",
+    "0.15"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.350000023841858)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=29.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.37625,-0.73452,-0.14173,0.00000,0.50000,-0.37351,1.01630,-0.14279,0.00000,0.50000,-0.37457,-0.73293,1.60750,0.00000,0.50000,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== thin / secondaryFill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.6000000238418579, inputValues=(
+    "0.2",
+    "0.21",
+    "0.1",
+    "0.15"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.350000023841858)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=29.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.22658,-0.34107,-0.06551,0.00000,0.18000,-0.17323,1.05958,-0.06635,0.00000,0.18000,-0.17408,-0.33980,1.33388,0.00000,0.18000,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== thin / tertiaryFill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.6000000238418579, inputValues=(
+    "0.2",
+    "0.21",
+    "0.1",
+    "0.15"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.350000023841858)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=29.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.06053,-0.07797,-0.01457,0.00000,0.12000,-0.03932,1.02255,-0.01523,0.00000,0.12000,-0.03998,-0.07697,1.08495,0.00000,0.12000,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== thin / separator
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.6000000238418579, inputValues=(
+    "0.2",
+    "0.21",
+    "0.1",
+    "0.15"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.350000023841858)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=29.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.39622,-0.59714,-0.11508,0.00000,0.29800,-0.30355,1.10366,-0.11611,0.00000,0.29800,-0.30458,-0.59560,1.58418,0.00000,0.29800,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== thin / default
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.6000000238418579, inputValues=(
+    "0.2",
+    "0.21",
+    "0.1",
+    "0.15"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.350000023841858)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=29.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[0.82807,-0.33796,-0.06511,0.00000,0.53750,-0.17179,0.66250,-0.06572,0.00000,0.53750,-0.17239,-0.33706,0.93445,0.00000,0.53750,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== blur regular
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.75, inputValues=(
+    "0.16",
+    "0.26",
+    "0.1",
+    "0.1"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.5)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=29.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+
+=== regular / label
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.75, inputValues=(
+    "0.16",
+    "0.26",
+    "0.1",
+    "0.1"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.5)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=29.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== regular / secondaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.75, inputValues=(
+    "0.16",
+    "0.26",
+    "0.1",
+    "0.1"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.5)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=29.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.17349,-0.64166,-0.12383,0.00000,0.55600,-0.32630,0.85904,-0.12474,0.00000,0.55600,-0.32721,-0.64030,1.37551,0.00000,0.55600,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== regular / tertiaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.75, inputValues=(
+    "0.16",
+    "0.26",
+    "0.1",
+    "0.1"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.5)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=29.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.39622,-0.59714,-0.11508,0.00000,0.29800,-0.30355,1.10366,-0.11611,0.00000,0.29800,-0.30458,-0.59560,1.58418,0.00000,0.29800,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== regular / quaternaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.75, inputValues=(
+    "0.16",
+    "0.26",
+    "0.1",
+    "0.1"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.5)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=29.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.22658,-0.34107,-0.06551,0.00000,0.18000,-0.17323,1.05958,-0.06635,0.00000,0.18000,-0.17408,-0.33980,1.33388,0.00000,0.18000,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== regular / fill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.75, inputValues=(
+    "0.16",
+    "0.26",
+    "0.1",
+    "0.1"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.5)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=29.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.37625,-0.73452,-0.14173,0.00000,0.50000,-0.37351,1.01630,-0.14279,0.00000,0.50000,-0.37457,-0.73293,1.60750,0.00000,0.50000,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== regular / secondaryFill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.75, inputValues=(
+    "0.16",
+    "0.26",
+    "0.1",
+    "0.1"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.5)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=29.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.22658,-0.34107,-0.06551,0.00000,0.18000,-0.17323,1.05958,-0.06635,0.00000,0.18000,-0.17408,-0.33980,1.33388,0.00000,0.18000,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== regular / tertiaryFill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.75, inputValues=(
+    "0.16",
+    "0.26",
+    "0.1",
+    "0.1"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.5)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=29.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.06053,-0.07797,-0.01457,0.00000,0.12000,-0.03932,1.02255,-0.01523,0.00000,0.12000,-0.03998,-0.07697,1.08495,0.00000,0.12000,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== regular / separator
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.75, inputValues=(
+    "0.16",
+    "0.26",
+    "0.1",
+    "0.1"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.5)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=29.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.39622,-0.59714,-0.11508,0.00000,0.29800,-0.30355,1.10366,-0.11611,0.00000,0.29800,-0.30458,-0.59560,1.58418,0.00000,0.29800,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== regular / default
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.75, inputValues=(
+    "0.16",
+    "0.26",
+    "0.1",
+    "0.1"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.5)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=29.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.17349,-0.64166,-0.12383,0.00000,0.55600,-0.32630,0.85904,-0.12474,0.00000,0.55600,-0.32721,-0.64030,1.37551,0.00000,0.55600,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== blur thick
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.8799999952316284, inputValues=(
+    "0.14",
+    "0.16",
+    "0.1",
+    "0.03"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.5)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=45) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+
+=== thick / label
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.8799999952316284, inputValues=(
+    "0.14",
+    "0.16",
+    "0.1",
+    "0.03"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.5)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=45) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== thick / secondaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.8799999952316284, inputValues=(
+    "0.14",
+    "0.16",
+    "0.1",
+    "0.03"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.5)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=45) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.17349,-0.64166,-0.12383,0.00000,0.55600,-0.32630,0.85904,-0.12474,0.00000,0.55600,-0.32721,-0.64030,1.37551,0.00000,0.55600,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== thick / tertiaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.8799999952316284, inputValues=(
+    "0.14",
+    "0.16",
+    "0.1",
+    "0.03"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.5)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=45) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.39622,-0.59714,-0.11508,0.00000,0.29800,-0.30355,1.10366,-0.11611,0.00000,0.29800,-0.30458,-0.59560,1.58418,0.00000,0.29800,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== thick / quaternaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.8799999952316284, inputValues=(
+    "0.14",
+    "0.16",
+    "0.1",
+    "0.03"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.5)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=45) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.22658,-0.34107,-0.06551,0.00000,0.18000,-0.17323,1.05958,-0.06635,0.00000,0.18000,-0.17408,-0.33980,1.33388,0.00000,0.18000,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== thick / fill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.8799999952316284, inputValues=(
+    "0.14",
+    "0.16",
+    "0.1",
+    "0.03"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.5)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=45) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.37625,-0.73452,-0.14173,0.00000,0.50000,-0.37351,1.01630,-0.14279,0.00000,0.50000,-0.37457,-0.73293,1.60750,0.00000,0.50000,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== thick / secondaryFill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.8799999952316284, inputValues=(
+    "0.14",
+    "0.16",
+    "0.1",
+    "0.03"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.5)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=45) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.22658,-0.34107,-0.06551,0.00000,0.18000,-0.17323,1.05958,-0.06635,0.00000,0.18000,-0.17408,-0.33980,1.33388,0.00000,0.18000,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== thick / tertiaryFill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.8799999952316284, inputValues=(
+    "0.14",
+    "0.16",
+    "0.1",
+    "0.03"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.5)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=45) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.06053,-0.07797,-0.01457,0.00000,0.12000,-0.03932,1.02255,-0.01523,0.00000,0.12000,-0.03998,-0.07697,1.08495,0.00000,0.12000,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== thick / separator
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.8799999952316284, inputValues=(
+    "0.14",
+    "0.16",
+    "0.1",
+    "0.03"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.5)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=45) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.39622,-0.59714,-0.11508,0.00000,0.29800,-0.30355,1.10366,-0.11611,0.00000,0.29800,-0.30458,-0.59560,1.58418,0.00000,0.29800,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== thick / default
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.8799999952316284, inputValues=(
+    "0.14",
+    "0.16",
+    "0.1",
+    "0.03"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.5)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=45) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.17349,-0.64166,-0.12383,0.00000,0.55600,-0.32630,0.85904,-0.12474,0.00000,0.55600,-0.32721,-0.64030,1.37551,0.00000,0.55600,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== blur chrome
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.75, inputValues=(
+    "0.23",
+    "0.52",
+    "0.27",
+    "0.255"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=2)
+    · filter colorBrightness(type=colorBrightness, enabled=1, inputAmount=-0.1000000014901161)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=22.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+
+=== chrome / label
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.75, inputValues=(
+    "0.23",
+    "0.52",
+    "0.27",
+    "0.255"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=2)
+    · filter colorBrightness(type=colorBrightness, enabled=1, inputAmount=-0.1000000014901161)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=22.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== chrome / secondaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.75, inputValues=(
+    "0.23",
+    "0.52",
+    "0.27",
+    "0.255"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=2)
+    · filter colorBrightness(type=colorBrightness, enabled=1, inputAmount=-0.1000000014901161)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=22.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.17349,-0.64166,-0.12383,0.00000,0.55600,-0.32630,0.85904,-0.12474,0.00000,0.55600,-0.32721,-0.64030,1.37551,0.00000,0.55600,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== chrome / tertiaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.75, inputValues=(
+    "0.23",
+    "0.52",
+    "0.27",
+    "0.255"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=2)
+    · filter colorBrightness(type=colorBrightness, enabled=1, inputAmount=-0.1000000014901161)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=22.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.39622,-0.59714,-0.11508,0.00000,0.29800,-0.30355,1.10366,-0.11611,0.00000,0.29800,-0.30458,-0.59560,1.58418,0.00000,0.29800,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== chrome / quaternaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.75, inputValues=(
+    "0.23",
+    "0.52",
+    "0.27",
+    "0.255"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=2)
+    · filter colorBrightness(type=colorBrightness, enabled=1, inputAmount=-0.1000000014901161)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=22.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.22658,-0.34107,-0.06551,0.00000,0.18000,-0.17323,1.05958,-0.06635,0.00000,0.18000,-0.17408,-0.33980,1.33388,0.00000,0.18000,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== chrome / fill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.75, inputValues=(
+    "0.23",
+    "0.52",
+    "0.27",
+    "0.255"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=2)
+    · filter colorBrightness(type=colorBrightness, enabled=1, inputAmount=-0.1000000014901161)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=22.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[0.66030,-0.17643,-0.03387,0.00000,0.46000,-0.08960,0.57392,-0.03432,0.00000,0.46000,-0.09005,-0.17575,0.71580,0.00000,0.46000,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== chrome / secondaryFill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.75, inputValues=(
+    "0.23",
+    "0.52",
+    "0.27",
+    "0.255"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=2)
+    · filter colorBrightness(type=colorBrightness, enabled=1, inputAmount=-0.1000000014901161)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=22.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.22658,-0.34107,-0.06551,0.00000,0.18000,-0.17323,1.05958,-0.06635,0.00000,0.18000,-0.17408,-0.33980,1.33388,0.00000,0.18000,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== chrome / tertiaryFill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.75, inputValues=(
+    "0.23",
+    "0.52",
+    "0.27",
+    "0.255"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=2)
+    · filter colorBrightness(type=colorBrightness, enabled=1, inputAmount=-0.1000000014901161)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=22.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.06053,-0.07797,-0.01457,0.00000,0.12000,-0.03932,1.02255,-0.01523,0.00000,0.12000,-0.03998,-0.07697,1.08495,0.00000,0.12000,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== chrome / separator
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.75, inputValues=(
+    "0.23",
+    "0.52",
+    "0.27",
+    "0.255"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=2)
+    · filter colorBrightness(type=colorBrightness, enabled=1, inputAmount=-0.1000000014901161)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=22.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.39622,-0.59714,-0.11508,0.00000,0.29800,-0.30355,1.10366,-0.11611,0.00000,0.29800,-0.30458,-0.59560,1.58418,0.00000,0.29800,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== chrome / default
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter luminanceCurveMap(type=luminanceCurveMap, enabled=1, inputAmount=0.75, inputValues=(
+    "0.23",
+    "0.52",
+    "0.27",
+    "0.255"
+))
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=2)
+    · filter colorBrightness(type=colorBrightness, enabled=1, inputAmount=-0.1000000014901161)
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputDither=1, inputNormalizeEdges=1, inputRadius=22.5) scale=0.25 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantColorMatrix(type=vibrantColorMatrix, enabled=1, inputBackdropAware=1, inputColorMatrix={CAColorMatrix=ffffffffffffffffffff}[1.17349,-0.64166,-0.12383,0.00000,0.55600,-0.32630,0.85904,-0.12474,0.00000,0.55600,-0.32721,-0.64030,1.37551,0.00000,0.55600,0.00000,0.00000,0.00000,1.00000,0.00000])
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== blur legacyLight
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=30)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[1.00000,0.30000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+
+=== legacyLight / label
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=30)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[1.00000,0.30000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantLight(type=vibrantLight, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.60000,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.04000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyLight / secondaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=30)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[1.00000,0.30000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantLight(type=vibrantLight, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.60000,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.04000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyLight / tertiaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=30)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[1.00000,0.30000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantLight(type=vibrantLight, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.60000,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.04000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyLight / quaternaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=30)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[1.00000,0.30000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantLight(type=vibrantLight, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.60000,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.04000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyLight / fill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=30)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[1.00000,0.30000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantLight(type=vibrantLight, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.60000,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.04000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyLight / secondaryFill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=30)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[1.00000,0.30000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantLight(type=vibrantLight, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.60000,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.04000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyLight / tertiaryFill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=30)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[1.00000,0.30000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantLight(type=vibrantLight, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.60000,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.04000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyLight / separator
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=30)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[1.00000,0.30000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantLight(type=vibrantLight, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.60000,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.04000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyLight / default
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=30)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[1.00000,0.30000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantLight(type=vibrantLight, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.60000,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.04000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== blur legacyExtraLight
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.97000,0.80000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+
+=== legacyExtraLight / label
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.97000,0.80000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantLight(type=vibrantLight, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.25098,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedSRGB)[0.00000,0.00000,0.31373,0.05000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyExtraLight / secondaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.97000,0.80000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantLight(type=vibrantLight, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.25098,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedSRGB)[0.00000,0.00000,0.31373,0.05000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyExtraLight / tertiaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.97000,0.80000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantLight(type=vibrantLight, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.25098,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedSRGB)[0.00000,0.00000,0.31373,0.05000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyExtraLight / quaternaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.97000,0.80000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantLight(type=vibrantLight, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.25098,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedSRGB)[0.00000,0.00000,0.31373,0.05000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyExtraLight / fill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.97000,0.80000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantLight(type=vibrantLight, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.25098,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedSRGB)[0.00000,0.00000,0.31373,0.05000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyExtraLight / secondaryFill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.97000,0.80000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantLight(type=vibrantLight, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.25098,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedSRGB)[0.00000,0.00000,0.31373,0.05000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyExtraLight / tertiaryFill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.97000,0.80000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantLight(type=vibrantLight, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.25098,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedSRGB)[0.00000,0.00000,0.31373,0.05000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyExtraLight / separator
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.97000,0.80000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantLight(type=vibrantLight, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.25098,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedSRGB)[0.00000,0.00000,0.31373,0.05000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyExtraLight / default
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.97000,0.80000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantLight(type=vibrantLight, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.25098,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedSRGB)[0.00000,0.00000,0.31373,0.05000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== blur legacyDark
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+
+=== legacyDark / label
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyDark / secondaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyDark / tertiaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyDark / quaternaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyDark / fill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyDark / secondaryFill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyDark / tertiaryFill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyDark / separator
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyDark / default
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== blur legacyRegular
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+
+=== legacyRegular / label
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyRegular / secondaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyRegular / tertiaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyRegular / quaternaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyRegular / fill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyRegular / secondaryFill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyRegular / tertiaryFill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyRegular / separator
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyRegular / default
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== blur legacyProminent
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+
+=== legacyProminent / label
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyProminent / secondaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyProminent / tertiaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyProminent / quaternaryLabel
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyProminent / fill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyProminent / secondaryFill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyProminent / tertiaryFill
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyProminent / separator
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+
+=== legacyProminent / default
+CALayer <UIVisualEffectView> frame={{20, 100}, {200, 60}} opacity=1.000
+  UICABackdropLayer <_UIVisualEffectBackdropView> frame={{0, 0}, {200, 60}} opacity=1.000
+    · filter gaussianBlur(type=gaussianBlur, enabled=1, inputNormalizeEdges=1, inputQuality=default, inputRadius=20)
+    · filter colorSaturate(type=colorSaturate, enabled=1, inputAmount=1.8) scale=0.125 groupName=(null) captureOnly=0 allowsInPlaceFiltering=0 marginWidth=0 zoom=0
+  CALayer <_UIVisualEffectSubview> frame={{0, 0}, {200, 60}} opacity=1.000 bg=CGColor(kCGColorSpaceExtendedGray)[0.11000,0.73000] compositingFilter=sourceOver(type=sourceOver, enabled=1)
+  CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+    CALayer <UIVisualEffectView> frame={{0, 0}, {200, 60}} opacity=1.000
+      CALayer <_UIVisualEffectContentView> frame={{0, 0}, {200, 60}} opacity=1.000
+        · filter vibrantDark(type=vibrantDark, enabled=1, inputColor0=CGColor(kCGColorSpaceExtendedGray)[0.63922,1.00000], inputColor1=CGColor(kCGColorSpaceExtendedGray)[0.00000,0.00000], inputReversed=0)
+        _UILabelLayer <UILabel> frame={{0, 0}, {200, 60}} opacity=1.000
+

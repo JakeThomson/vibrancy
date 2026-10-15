@@ -1,0 +1,42 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+# Libraries should not include pubspec.lock, per https://dart.dev/guides/libraries/private-files#pubspeclock.
+/pubspec.lock
+**/doc/api/
+.dart_tool/
+.flutter-plugins-dependencies
+/build/
+/coverage/
+
+# The example app is not a published app, so its lockfile is not tracked either.
+/example/pubspec.lock
+
+# The native reference app's Xcode project is generated from project.yml.
+/native/build/
+/native/NativeReference.xcodeproj/
+
+# Native captures the example's card page draws over, copied in by hand from
+# ../vibrancy-colours_parity (see tools/parity/README.md).
+/example/assets/parity/
