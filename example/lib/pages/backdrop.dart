@@ -49,6 +49,7 @@ class Backdrop extends StatelessWidget {
             ),
             VibrancyScope(
               material: material,
+              brightness: brightness,
               enabled: vibrant,
               child: Builder(
                 builder: (BuildContext context) {

@@ -138,8 +138,8 @@ A `Vibrancy` with no scope reads the backdrop directly beneath itself.
 `system…Material` styles. It selects the matrices tuned to that blur, and
 thinner materials let more of the backdrop's colour through. The package
 doesn't blur anything itself; the material only describes your blur.
-Brightness follows `CupertinoTheme`, which a `MaterialApp` derives from its
-`Theme`, or you can set it on the scope.
+Brightness follows the platform's, as UIKit's trait collection does. If your
+app's theme overrides it, set it on the scope.
 
 ```dart
 VibrancyScope(

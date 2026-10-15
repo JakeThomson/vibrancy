@@ -39,6 +39,7 @@ class CardPage extends StatelessWidget {
         Positioned.fill(
           child: VibrancyScope(
             material: Parity.material,
+            brightness: Parity.brightness,
             child: Stack(
               children: <Widget>[
                 at(
@@ -197,6 +198,7 @@ class SwatchesPage extends StatelessWidget {
                             child: Vibrancy(
                               style: Parity.style,
                               material: Parity.material,
+                              brightness: Parity.brightness,
                               child: SizedBox(
                                 width: 40,
                                 height: 40,

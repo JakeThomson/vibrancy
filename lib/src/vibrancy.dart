@@ -1,7 +1,7 @@
 import 'dart:ui' as ui;
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/rendering.dart';
+import 'package:flutter/widgets.dart';
 
 import 'vibrancy_matrices.dart';
 import 'vibrancy_matrix.dart';
@@ -55,7 +55,7 @@ class Vibrancy extends StatelessWidget {
   /// The [style] defaults to [VibrancyStyle.secondaryLabel], as
   /// `UIVibrancyEffect(blurEffect:)` does. [material] and [brightness]
   /// default to the nearest [VibrancyScope]'s, then to
-  /// [VibrancyMaterial.regular] and [CupertinoTheme.brightnessOf].
+  /// [VibrancyMaterial.regular] and the platform's brightness.
   const Vibrancy({
     super.key,
     this.style = VibrancyStyle.secondaryLabel,
@@ -73,7 +73,7 @@ class Vibrancy extends StatelessWidget {
   final VibrancyMaterial? material;
 
   /// The brightness to tune for, or null for the nearest [VibrancyScope]'s,
-  /// then the ambient [CupertinoTheme]'s.
+  /// then the platform's, as UIKit follows the system's interface style.
   final Brightness? brightness;
 
   /// Whether to apply the effect. When false, or when the nearest
@@ -97,7 +97,8 @@ class Vibrancy extends StatelessWidget {
       material ?? scope?.scope.material ?? VibrancyMaterial.regular,
       brightness ??
           scope?.scope.brightness ??
-          CupertinoTheme.brightnessOf(context),
+          MediaQuery.maybePlatformBrightnessOf(context) ??
+          Brightness.light,
     );
     return _Vibrancy(
       matrix: enabled && (scope?.scope.enabled ?? true) ? matrix : null,
@@ -148,7 +149,9 @@ class VibrancyScope extends StatefulWidget {
   /// The material the [Vibrancy] widgets below are tuned to.
   final VibrancyMaterial material;
 
-  /// The brightness to tune for, or null for the ambient [CupertinoTheme]'s.
+  /// The brightness to tune for, or null for the platform's
+  /// ([MediaQueryData.platformBrightness]). Set it when the app's theme
+  /// differs from the platform's.
   final Brightness? brightness;
 
   /// Whether the [Vibrancy] widgets below apply the effect. When false they

@@ -39,4 +39,4 @@ migrate_working_dir/
 
 # Native captures the example's card page draws over, copied in by hand from
 # ../vibrancy-colours_parity (see tools/parity/README.md).
-/example/assets/parity/
+/example/assets/parity/*.png
