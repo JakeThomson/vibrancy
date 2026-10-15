@@ -6,6 +6,16 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-10-15
+
+### Fixed
+
+- On Impeller, a `Vibrancy` under an `Opacity`, a `FadeTransition` or a
+  `ShaderMask` fades its child instead of filling its whole box with the
+  vibrant colour. Each `Vibrancy` is now composited in a layer of its own.
+- On Impeller, a `Vibrancy` whose child has compositing layers of its own,
+  such as a `RepaintBoundary`, is vibrant instead of drawn as it is.
+
 ## [0.1.0] - 2026-10-15
 
 ### Added

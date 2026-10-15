@@ -2,7 +2,7 @@ name: vibrancy
 description: >-
   iOS's UIVibrancyEffect for Flutter: labels, icons and fills that take their
   colour from the blur behind them, using the colour matrices UIKit applies.
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/JakeThomson/vibrancy
 issue_tracker: https://github.com/JakeThomson/vibrancy/issues
 
