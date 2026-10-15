@@ -23,6 +23,7 @@ Future<void> main() async {
         'swatches' => const SwatchesPage(),
         'card' => const CardPage(),
         'perf' => const PerfPage(),
+        'fade' => const FadePage(),
         'place' => PlacePage(vibrant: !Parity.perfOff),
         'player' => PlayerPage(vibrant: !Parity.perfOff),
         'settings' => SettingsPage(vibrant: !Parity.perfOff),

@@ -44,7 +44,7 @@ matrices applied to the same backdrop.
 
 ```yaml
 dependencies:
-  vibrancy: ^0.1.0
+  vibrancy: ^0.1.1
 ```
 
 ```sh
@@ -168,7 +168,7 @@ final caption = VibrancyStyle.secondaryLabel.colorOver(
 Reading the backdrop is the expensive part. On Impeller it ends the render
 pass and copies the scene. A `VibrancyScope` reads it once per style, at the
 top of the frame, and every `Vibrancy` below draws from that copy. Each
-`Vibrancy` also draws its child's mask in one small offscreen layer.
+`Vibrancy` also draws its child in one small offscreen layer.
 
 Scrolling forty place cards (four vibrant pieces each, about twenty on screen
 at a time) on the iOS simulator:
@@ -176,16 +176,22 @@ at a time) on the iOS simulator:
 | | Raster p50 | p90 |
 |---|---|---|
 | Vibrancy off | 1.0 ms | 1.5 ms |
-| Vibrancy on | 3.4 ms | 4.7 ms |
+| Vibrancy on | 3.9 ms | 5.0 ms |
 
 To keep it cheap:
 
 - Use one `VibrancyScope` for as large a surface as shares a blur. A whole
   scrolling page over a fixed photo costs one read per style.
 - Wrap a column of same-style labels in one `Vibrancy` rather than one each.
-- Fade a `Vibrancy` from outside, not from inside. A child that needs its own
-  compositing layer (one under a `RepaintBoundary`, an animating `Opacity` or
-  a platform view) can't be used as a mask and is drawn without vibrancy.
+
+### Fading and animating
+
+On Impeller a `Vibrancy` can sit under an `Opacity`, a `FadeTransition` or a
+`ShaderMask`, and its child can have compositing layers of its own, as long
+as the `VibrancyScope` is outside the fading widget. A backdrop is read from
+the layer it's in, so a scope inside a fading layer would read that layer
+rather than the blur. On Skia and the web, keep the fade outside the
+`Vibrancy` and its child free of its own layers.
 
 ## Fidelity
 
@@ -209,7 +215,7 @@ same simulator, and the screenshots are compared pixel by pixel.
 |---|---|
 | **No blur** | UIKit's materials blur, saturate and tone-map the backdrop. This package leaves that to your own blur and only adds the vibrancy on top. |
 | **Legacy blur styles** | `.light`, `.extraLight`, `.dark`, `.regular` and `.prominent` use an older vibrancy filter and aren't included. |
-| **Translucent backdrops** | On Impeller the effect assumes the scene behind it is opaque, as a blurred photo is. Under an `Opacity` or another translucent layer the result can differ. |
+| **Translucent backdrops** | A `VibrancyScope` assumes the blur it reads is opaque, as a blurred photo is. Over a translucent backdrop the vibrant colours can differ. |
 
 ## Platform support
 

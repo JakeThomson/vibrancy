@@ -31,6 +31,8 @@ jobs:
         run: flutter analyze --fatal-infos
       - name: Test
         run: flutter test
+      - name: Test (Impeller)
+        run: flutter test --enable-impeller
       - name: Publish dry run
         if: matrix.channel == 'stable'
         run: flutter pub publish --dry-run

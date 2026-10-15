@@ -144,6 +144,118 @@ void main() {
     expect(pixel[2], closeTo((expected.b * 255).round(), 2));
   });
 
+  group('under a translucent ancestor', () {
+    // Impeller only: elsewhere a backdrop filter under an Opacity reads the
+    // Opacity's own layer, not the scene.
+    final skip = !ui.ImageFilter.isShaderFilterSupported;
+
+    Future<void> pumpFaded(WidgetTester tester, GlobalKey key, Widget child) {
+      return tester.pumpWidget(
+        Center(
+          child: RepaintBoundary(
+            key: key,
+            child: ColoredBox(
+              color: const Color(0xFF7FA7D9),
+              child: VibrancyScope(
+                child: SizedBox(
+                  width: 40,
+                  height: 20,
+                  child: Opacity(opacity: 0.5, child: child),
+                ),
+              ),
+            ),
+          ),
+        ),
+      );
+    }
+
+    void expectBlend(List<int> pixel, Color under, Color over, double t) {
+      final expected = <double>[
+        under.r * (1 - t) + over.r * t,
+        under.g * (1 - t) + over.g * t,
+        under.b * (1 - t) + over.b * t,
+      ];
+      for (var channel = 0; channel < 3; channel++) {
+        expect(
+          pixel[channel],
+          closeTo((expected[channel] * 255).round(), 2),
+          reason: 'channel $channel of $pixel',
+        );
+      }
+    }
+
+    testWidgets('fades the vibrant child, not its box', (
+      WidgetTester tester,
+    ) async {
+      const backdrop = Color(0xFF7FA7D9);
+      final key = GlobalKey();
+      await pumpFaded(
+        tester,
+        key,
+        const Vibrancy(
+          child: Align(
+            alignment: Alignment.centerLeft,
+            child: SizedBox(
+              width: 20,
+              height: 20,
+              child: ColoredBox(color: Color(0xFF000000)),
+            ),
+          ),
+        ),
+      );
+      final vibrant = VibrancyStyle.secondaryLabel.colorOver(backdrop)!;
+      expectBlend(
+        await _pixel(tester, key, const Offset(10, 10)),
+        backdrop,
+        vibrant,
+        0.5,
+      );
+      // The empty half of the Vibrancy's box leaves the backdrop alone.
+      expectBlend(
+        await _pixel(tester, key, const Offset(30, 10)),
+        backdrop,
+        backdrop,
+        0.5,
+      );
+    }, skip: skip);
+
+    testWidgets('masks a child with its own layer', (
+      WidgetTester tester,
+    ) async {
+      const backdrop = Color(0xFF7FA7D9);
+      final key = GlobalKey();
+      await pumpFaded(
+        tester,
+        key,
+        const Vibrancy(
+          child: Align(
+            alignment: Alignment.centerLeft,
+            child: RepaintBoundary(
+              child: SizedBox(
+                width: 20,
+                height: 20,
+                child: ColoredBox(color: Color(0xFFFFFFFF)),
+              ),
+            ),
+          ),
+        ),
+      );
+      final vibrant = VibrancyStyle.secondaryLabel.colorOver(backdrop)!;
+      expectBlend(
+        await _pixel(tester, key, const Offset(10, 10)),
+        backdrop,
+        vibrant,
+        0.5,
+      );
+      expectBlend(
+        await _pixel(tester, key, const Offset(30, 10)),
+        backdrop,
+        backdrop,
+        0.5,
+      );
+    }, skip: skip);
+  });
+
   testWidgets(
     'a vibrant child shows the matrix of the backdrop through its alpha',
     (WidgetTester tester) async {

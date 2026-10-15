@@ -42,13 +42,15 @@ import 'vibrancy_style.dart';
 /// Reading the backdrop is the cost of the effect: on Impeller it ends the
 /// render pass and copies the scene. Under a [VibrancyScope] the scene is
 /// read once per style, however many [Vibrancy] widgets use it, and each of
-/// them is a mask and one textured draw. A [Vibrancy] with no scope reads
-/// the backdrop for itself.
+/// them is one small offscreen layer and one textured draw. A [Vibrancy]
+/// with no scope reads the backdrop for itself.
 ///
-/// The child is painted as a mask in the scene's own canvas: a child that
-/// needs compositing of its own — under a [RepaintBoundary], an animating
-/// [Opacity] or a platform view — is painted as it is, without vibrancy.
-/// Fade a [Vibrancy] from outside instead.
+/// On Impeller a [Vibrancy] can sit under an [Opacity] or a
+/// `FadeTransition`, and its child can have layers of its own, as long as
+/// its [VibrancyScope] is outside the fading ancestor: a backdrop is read
+/// from the layer it is in. Elsewhere, where a [Vibrancy] reads the backdrop
+/// itself, fade it from outside, and a child that needs compositing of its
+/// own — under a [RepaintBoundary], say — is painted as it is.
 class Vibrancy extends StatelessWidget {
   /// Creates a vibrant [child].
   ///
@@ -136,6 +138,17 @@ class Vibrancy extends StatelessWidget {
 /// The scope reads the backdrop once for each style its [Vibrancy] widgets
 /// use, so wrap as large a surface in one scope as shares a blur: a whole
 /// scrolling page over a fixed photo costs one read per style.
+///
+/// A backdrop is read from the layer it is in, so keep the scope outside any
+/// [Opacity], `FadeTransition` or `ShaderMask` that its content animates
+/// through. Inside one, the scope would read that layer rather than the
+/// blur. Fade the content below the scope instead:
+///
+/// ```dart
+/// VibrancyScope(
+///   child: FadeTransition(opacity: animation, child: details),
+/// )
+/// ```
 class VibrancyScope extends StatefulWidget {
   /// Creates a scope of [material] for the [Vibrancy] widgets below it.
   const VibrancyScope({
@@ -259,19 +272,30 @@ class _VibrancyBackdrops {
 final Map<VibrancyMatrix, ui.ColorFilter> _colorFilters =
     <VibrancyMatrix, ui.ColorFilter>{};
 
-/// Sets [layer] up to draw [matrix] applied to the backdrop: on Impeller with
-/// [BlendMode.dstOver], which leaves the opaque parts of the scene as they
-/// are and fills in what a mask has cut out of it.
+/// Sets [layer] up to draw [matrix] applied to the backdrop with
+/// [blendMode].
 BackdropFilterLayer _backdropLayer(
   BackdropFilterLayer? layer,
   VibrancyMatrix matrix,
   BackdropKey? key,
+  BlendMode blendMode,
 ) {
   return (layer ?? BackdropFilterLayer())
     ..filter = _colorFilters.putIfAbsent(matrix, matrix.toColorFilter)
-    ..blendMode = _sharesBackdrops ? BlendMode.dstOver : BlendMode.srcOver
+    ..blendMode = blendMode
     ..backdropKey = key;
 }
+
+/// An identity colour filter, for a layer that groups its children into one
+/// offscreen pass: the engine elides an identity image filter but keeps an
+/// identity colour filter, and saves a single layer for all of the children
+/// it is applied to.
+const ui.ColorFilter _group = ui.ColorFilter.matrix(<double>[
+  1, 0, 0, 0, 0, //
+  0, 1, 0, 0, 0,
+  0, 0, 1, 0, 0,
+  0, 0, 0, 1, 0,
+]);
 
 class _VibrancyBackdrop extends SingleChildRenderObjectWidget {
   const _VibrancyBackdrop({required this.backdrops, super.child});
@@ -292,9 +316,10 @@ class _VibrancyBackdrop extends SingleChildRenderObjectWidget {
 // from that copy with its own blend mode, without reading the scene again
 // (Canvas::SaveLayer in impeller/display_list/canvas.cc). This box draws that
 // first one over its bounds, with BlendMode.dstOver, which changes nothing in
-// the opaque scene: the copy is then of the backdrop alone, before any
-// Vibrancy below has cut its mask out of it. (BlendMode.dst would say so more
-// plainly, but the display list drops a layer that draws with it.)
+// the opaque scene: the copy is then of the backdrop alone, taken in the
+// scope's own pass, before any of its content paints. (BlendMode.dst would
+// say so more plainly, but the display list drops a layer that draws with
+// it.)
 class _RenderVibrancyBackdrop extends RenderProxyBox {
   _RenderVibrancyBackdrop(this._backdrops);
 
@@ -353,6 +378,7 @@ class _RenderVibrancyBackdrop extends RenderProxyBox {
               filter.layer,
               matrix,
               _backdrops.keyFor(matrix),
+              BlendMode.dstOver,
             );
             context.pushLayer(filter.layer!, (_, _) {}, offset);
           },
@@ -398,10 +424,13 @@ class _Vibrancy extends SingleChildRenderObjectWidget {
 // backdrop, through the child's alpha: a backdrop pixel b under child alpha a
 // becomes b * (1 - a) + matrix(b) * a.
 //
-// On Impeller, the child is first cut out of the scene with BlendMode.dstOut,
-// leaving b * (1 - a) with alpha 1 - a. The filtered backdrop, read once by
-// the scope (or by this box, with no scope), is then drawn over the box with
-// BlendMode.dstOver, which adds matrix(b) * a and makes the pixel opaque.
+// On Impeller, the box is a layer of its own (a group of the identity colour
+// filter). The child paints into it as it is, then the filtered backdrop,
+// read once by the scope (or by this box, with no scope), is drawn over it
+// with BlendMode.srcIn, leaving matrix(b) * a. The layer then composites
+// over whatever is beneath it like any other content, so the box can sit
+// under an Opacity, a FadeTransition or a ShaderMask, and the child can
+// have layers of its own.
 //
 // Elsewhere a backdrop filter starts a layer that holds the filtered
 // backdrop, so the child is composited into it with BlendMode.dstIn, keeping
@@ -442,6 +471,8 @@ class _RenderVibrancy extends RenderProxyBox {
 
   final LayerHandle<BackdropFilterLayer> _ownBackdropLayer =
       LayerHandle<BackdropFilterLayer>();
+  final LayerHandle<ColorFilterLayer> _groupLayer =
+      LayerHandle<ColorFilterLayer>();
   final LayerHandle<BackdropFilterLayer> _filterLayer =
       LayerHandle<BackdropFilterLayer>();
 
@@ -478,11 +509,14 @@ class _RenderVibrancy extends RenderProxyBox {
   void paint(PaintingContext context, Offset offset) {
     final child = this.child;
     final matrix = _matrix;
-    // A composited child cannot be drawn as a mask within the scene's own
-    // canvas, so it is painted as it is.
-    if (child == null || matrix == null || child.needsCompositing) {
+    // Without shared backdrops the child is drawn as a mask in the filter's
+    // canvas, which a composited child cannot be, so it is painted as it is.
+    if (child == null ||
+        matrix == null ||
+        (!_sharesBackdrops && child.needsCompositing)) {
       layer = null;
       _ownBackdropLayer.layer = null;
+      _groupLayer.layer = null;
       _filterLayer.layer = null;
       super.paint(context, offset);
       return;
@@ -492,13 +526,14 @@ class _RenderVibrancy extends RenderProxyBox {
       Offset offset,
     ) {
       if (!_sharesBackdrops) {
-        _filterLayer.layer = _backdropLayer(_filterLayer.layer, matrix, null);
-        context.pushLayer(
-          _filterLayer.layer!,
-          (PaintingContext context, Offset offset) =>
-              _paintMask(context, offset, BlendMode.dstIn),
-          offset,
+        _groupLayer.layer = null;
+        _filterLayer.layer = _backdropLayer(
+          _filterLayer.layer,
+          matrix,
+          null,
+          BlendMode.srcOver,
         );
+        context.pushLayer(_filterLayer.layer!, _paintMask, offset);
         return;
       }
       final backdrops = _backdrops;
@@ -509,21 +544,32 @@ class _RenderVibrancy extends RenderProxyBox {
           _ownBackdropLayer.layer,
           matrix,
           key,
+          BlendMode.dstOver,
         );
         context.pushLayer(_ownBackdropLayer.layer!, (_, _) {}, offset);
       } else {
         key = backdrops.keyFor(matrix);
         _ownBackdropLayer.layer = null;
       }
-      _paintMask(context, offset, BlendMode.dstOut);
-      _filterLayer.layer = _backdropLayer(_filterLayer.layer, matrix, key);
-      context.pushLayer(_filterLayer.layer!, (_, _) {}, offset);
+      _groupLayer.layer = context.pushColorFilter(offset, _group, (
+        PaintingContext context,
+        Offset offset,
+      ) {
+        context.paintChild(child, offset);
+        _filterLayer.layer = _backdropLayer(
+          _filterLayer.layer,
+          matrix,
+          key,
+          BlendMode.srcIn,
+        );
+        context.pushLayer(_filterLayer.layer!, (_, _) {}, offset);
+      }, oldLayer: _groupLayer.layer);
     }, oldLayer: layer as ClipRectLayer?);
   }
 
-  void _paintMask(PaintingContext context, Offset offset, BlendMode blendMode) {
+  void _paintMask(PaintingContext context, Offset offset) {
     final canvas = context.canvas;
-    canvas.saveLayer(offset & size, Paint()..blendMode = blendMode);
+    canvas.saveLayer(offset & size, Paint()..blendMode = BlendMode.dstIn);
     context.paintChild(child!, offset);
     canvas.restore();
   }
@@ -531,6 +577,7 @@ class _RenderVibrancy extends RenderProxyBox {
   @override
   void dispose() {
     _ownBackdropLayer.layer = null;
+    _groupLayer.layer = null;
     _filterLayer.layer = null;
     super.dispose();
   }

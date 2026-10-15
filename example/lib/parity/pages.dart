@@ -232,3 +232,85 @@ class _Patch extends StatelessWidget {
     );
   }
 }
+
+/// Vibrant text, a fill and a separator under an [Opacity] of `VIB_FADE`,
+/// inside a scope over the sky. With `VIB_HIDE=1` the content is left out, for
+/// the bare backdrop: at opacity `o` the page should be the opaque page
+/// blended `o` of the way from the bare one (`tools/parity/check_fade.py`).
+class FadePage extends StatelessWidget {
+  /// Creates the fade page.
+  const FadePage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    const white = Color(0xFFFFFFFF);
+    final content = Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        const Vibrancy(
+          child: Text(
+            'PLACES',
+            style: TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.w700,
+              letterSpacing: 3,
+            ),
+          ),
+        ),
+        const SizedBox(height: 16),
+        const Vibrancy(
+          style: VibrancyStyle.tertiaryFill,
+          child: SizedBox(
+            width: 200,
+            height: 60,
+            child: DecoratedBox(
+              decoration: BoxDecoration(
+                color: white,
+                borderRadius: BorderRadius.all(Radius.circular(30)),
+              ),
+            ),
+          ),
+        ),
+        const SizedBox(height: 16),
+        const Vibrancy(
+          child: Text(
+            'Known as the Walkie Talkie for its unique shape.',
+            style: TextStyle(fontSize: 22),
+          ),
+        ),
+        const SizedBox(height: 16),
+        const Vibrancy(
+          style: VibrancyStyle.separator,
+          child: SizedBox(
+            height: 4,
+            width: double.infinity,
+            child: ColoredBox(color: white),
+          ),
+        ),
+        const SizedBox(height: 16),
+        // A child with a compositing layer of its own.
+        Vibrancy(
+          style: VibrancyStyle.fill,
+          child: RepaintBoundary(
+            child: Container(width: 120, height: 60, color: white),
+          ),
+        ),
+      ],
+    );
+    return Stack(
+      fit: StackFit.expand,
+      children: <Widget>[
+        Image.asset('assets/sky.jpg', fit: BoxFit.cover),
+        VibrancyScope(
+          brightness: Parity.brightness,
+          child: Padding(
+            padding: const EdgeInsets.fromLTRB(24, 140, 24, 0),
+            child: Parity.hide
+                ? const SizedBox.shrink()
+                : Opacity(opacity: Parity.fade, child: content),
+          ),
+        ),
+      ],
+    );
+  }
+}

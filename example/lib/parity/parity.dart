@@ -25,6 +25,12 @@ abstract final class Parity {
   /// The brightness to draw in.
   static Brightness brightness = Brightness.light;
 
+  /// The opacity of the fade page's content.
+  static double fade = 1;
+
+  /// Whether the fade page leaves its content out.
+  static bool hide = false;
+
   /// Whether the benchmark page draws its content without vibrancy.
   static bool perfOff = false;
 
@@ -55,6 +61,8 @@ abstract final class Parity {
         ? Brightness.dark
         : Brightness.light;
     perfOff = environment['VIB_PERF_OFF'] == '1';
+    fade = double.tryParse(environment['VIB_FADE'] ?? '') ?? 1;
+    hide = environment['VIB_HIDE'] == '1';
     perfOneStyle = environment['VIB_PERF_ONE'] == '1';
   }
 }
